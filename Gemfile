@@ -20,10 +20,9 @@ group :test do
   gem "rubocop"
   gem "rubocop-rspec"
   gem "simplecov", require: false
+
+  # TODO: delete me
+  gem 'delayed_job', git: "https://github.com/ballcheck/delayed_job.git", branch: "tb/job_versioning"
 end
-
-
-# TODO: delete me
-gem 'delayed_job', git: "https://github.com/ballcheck/delayed_job.git", branch: "tb/job_versioning", require: true
 
 gemspec
