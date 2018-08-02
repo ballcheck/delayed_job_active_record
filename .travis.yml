@@ -1,7 +1,4 @@
 language: ruby
-branches:
-  only:
-    - master
 before_script:
   - mysql -e 'create database delayed_job_test;'
   - mysql --version
