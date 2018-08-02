@@ -22,7 +22,8 @@ group :test do
   gem "simplecov", require: false
 end
 
-gemspec
 
 # TODO: delete me
-gem 'delayed_job', git: "https://github.com/ballcheck/delayed_job.git", branch: "tb/job_versioning"
+gem 'delayed_job', git: "https://github.com/ballcheck/delayed_job.git", branch: "tb/job_versioning", require: true
+
+gemspec
